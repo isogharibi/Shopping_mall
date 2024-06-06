@@ -1,0 +1,23 @@
+.products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100dvh;
+  background: rgb(64, 73, 76);
+  background: linear-gradient(
+    180deg,
+    rgba(64, 73, 76, 1) 0%,
+    rgba(45, 54, 57, 1) 100%
+  );
+  padding: 1.5rem;
+
+  .cards-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+}

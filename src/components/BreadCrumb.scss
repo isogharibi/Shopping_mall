@@ -1,0 +1,43 @@
+.bread-crumb-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  width: 100%;
+  height: max-content;
+  position: absolute;
+  top: -5px;
+  z-index: 1;
+  background-color: transparent;
+
+  .arrow-back {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .current-path {
+    font-family: pl;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+  .cart-container {
+    position: relative;
+
+    .badge {
+      width: 10px;
+      height: 10px;
+      border: none;
+      border-radius: 50%;
+      background-color: #00c2c3;
+      position: absolute;
+      top: 0;
+      right: -5px;
+    }
+
+    .nav-cart {
+      font-size: 2rem;
+      color: #fff;
+    }
+  }
+}

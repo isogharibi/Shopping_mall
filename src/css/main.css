@@ -1,0 +1,80 @@
+.active-color {
+  border: 3px solid #00c2c3;
+}
+
+.black {
+  background-color: #14191b;
+}
+
+.gray {
+  background-color: #b7b7cc;
+}
+
+.blue {
+  background-color: #2a72db;
+}
+
+.orange {
+  background-color: #f99c56;
+}
+
+.purple {
+  background-color: #5e6fd4;
+}
+
+.pink {
+  background-color: #e564c9;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: pr;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@font-face {
+  font-family: pt;
+  src: url(/src/fonts/Poppins-Thin.ttf);
+}
+@font-face {
+  font-family: pl;
+  src: url(/src/fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: pr;
+  src: url(/src/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: pm;
+  src: url(/src/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: psb;
+  src: url(/src/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: pb;
+  src: url(/src/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: peb;
+  src: url(/src/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: pbb;
+  src: url(/src/fonts/Poppins-Black.ttf);
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,80 @@
+@use "../themes/colors" as *;
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  background: rgb(64, 73, 76);
+  background: linear-gradient(
+    180deg,
+    rgba(64, 73, 76, 1) 52%,
+    rgba(45, 54, 57, 1) 100%
+  );
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: -5px 10px 10px #252b2db4;
+  padding: 0.8rem;
+  position: relative;
+
+  .favourite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f16060;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 20px;
+    right: 20px;
+    box-shadow: 3px 3px 5px #11111130 , 3px -3px 5px #11111130;
+  }
+
+  img {
+    width: 100%;
+    height: 180px;
+    border-radius: 1.5rem;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .title {
+    font-family: pt;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .description {
+    font-family: pt;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .price {
+      font-size: 1.2rem;
+      font-family: pl;
+      color: $main;
+    }
+
+    .add {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      border: none;
+
+      svg {
+        font-size: 1.5rem;
+        stroke-width: 0.4px;
+      }
+    }
+  }
+}

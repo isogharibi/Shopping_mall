@@ -1,0 +1,24 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-left: 0.5rem;
+
+  svg {
+    font-size: 1.4rem;
+  }
+
+  .badge {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #00c2c3;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+  }
+}

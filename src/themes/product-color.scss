@@ -1,0 +1,29 @@
+@use './colors' as *;
+
+.active-color{
+  border: 3px solid $main;
+}
+
+.black {
+  background-color: $black;
+}
+
+.gray {
+  background-color: $gray;
+}
+
+.blue {
+  background-color: $blue;
+}
+
+.orange {
+  background-color: $orange;
+}
+
+.purple {
+  background-color: $purple;
+}
+
+.pink {
+  background-color: $pink;
+}
